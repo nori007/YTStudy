@@ -12,7 +12,7 @@ import common.Message;
 
 public class Server {
 
-    private HashMap<String, ClientInfo> mapClient = new HashMap<String, ClientInfo>();  //first : ip, second : clientInfo
+    private static HashMap<String, ClientInfo> mapClient = new HashMap<String, ClientInfo>();  //first : ip, second : clientInfo
     private final int port = 3000;
     private ServerSocket serverSocket = null;
 
